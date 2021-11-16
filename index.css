@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#carouselExampleFade{
+    margin: 5px 0;
+    padding: 0;    
+}
+
+.d-block{
+    height: 380px;
+}
+
+footer{
+    background-color: rgb(46, 46, 46);
+    color: #e3e3e3;
+    text-align: center;
+}
+
+#textphp > .cards{
+    display: none;
+}
+
+@media only screen and (max-width:576px) {
+    .d-block{
+        height: 300px;
+    }
+
+    #textphp > .cards{
+        display: block;
+    }
+
+    #textphpfile{
+        display: none;
+    }
+
+    .main-body{
+        text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    }
+    
+    .online{
+        background-color: green;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        position: absolute;
+        margin: 0px 2px;
+    }
+}
